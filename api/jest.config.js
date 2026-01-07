@@ -3,7 +3,7 @@ module.exports = {
   clearMocks: true,
   roots: ['<rootDir>'],
   coverageDirectory: 'coverage',
-  testTimeout: 30000, // 30 seconds timeout for all tests
+  testTimeout: 180000, // 180 seconds timeout for all tests (MongoDB download may take time)
   setupFiles: ['./test/jestSetup.js', './test/__mocks__/logger.js'],
   moduleNameMapper: {
     '~/(.*)': '<rootDir>/$1',

@@ -1,0 +1,24 @@
+# Docker Compose configuration for Industry Automation Platform
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.industry.yml up -d
+
+services:
+  # Industry Client Frontend
+  industry-client:
+    container_name: industry-client
+    build:
+      context: ./industryclient
+      dockerfile: Dockerfile
+    ports:
+      - "3091:3091"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3091
+      - VITE_API_URL=http://localhost:3080
+    restart: always
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  industry_build:

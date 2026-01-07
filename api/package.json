@@ -61,7 +61,6 @@
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dedent": "^1.5.3",
-    "dotenv": "^16.0.3",
     "eventsource": "^3.0.2",
     "express": "^5.2.1",
     "express-mongo-sanitize": "^2.2.0",
@@ -116,6 +115,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "dotenv": "^17.2.3",
     "jest": "^30.2.0",
     "mongodb-memory-server": "^10.1.4",
     "nodemon": "^3.0.3",
