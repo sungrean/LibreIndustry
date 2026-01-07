@@ -47,130 +47,130 @@
 </p>
 
 
-# ✨ Features
+# ✨ 功能特性
 
-- 🖥️ **UI & Experience** inspired by ChatGPT with enhanced design and features
+- 🖥️ **UI 和体验**: 以 ChatGPT 为灵感来源，具有增强的设计和功能
 
-- 🤖 **AI Model Selection**:  
-  - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure)
-  - [Custom Endpoints](https://www.librechat.ai/docs/quick_start/custom_endpoints): Use any OpenAI-compatible API with LibreChat, no proxy required
-  - Compatible with [Local & Remote AI Providers](https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints):
-    - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai,
-    - OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more
+- 🤖 **AI 模型选择**:
+  - Anthropic (Claude)、AWS Bedrock、OpenAI、Azure OpenAI、Google、Vertex AI、OpenAI Responses API（包括 Azure）
+  - [自定义端点](https://www.librechat.ai/docs/quick_start/custom_endpoints)：在 LibreChat 中使用任何兼容 OpenAI 的 API，无需代理
+  - 兼容[本地和远程 AI 提供商](https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints)：
+    - Ollama、groq、Cohere、Mistral AI、Apple MLX、koboldcpp、together.ai
+    - OpenRouter、Helicone、Perplexity、ShuttleAI、Deepseek、Qwen 等
 
-- 🔧 **[Code Interpreter API](https://www.librechat.ai/docs/features/code_interpreter)**: 
-  - Secure, Sandboxed Execution in Python, Node.js (JS/TS), Go, C/C++, Java, PHP, Rust, and Fortran
-  - Seamless File Handling: Upload, process, and download files directly
-  - No Privacy Concerns: Fully isolated and secure execution
+- 🔧 **[代码解释器 API](https://www.librechat.ai/docs/features/code_interpreter)**:
+  - 安全、沙箱执行 Python、Node.js (JS/TS)、Go、C/C++、Java、PHP、Rust 和 Fortran
+  - 无缝文件处理：直接上传、处理和下载文件
+  - 无隐私问题：完全隔离且安全的执行环境
 
-- 🔦 **Agents & Tools Integration**:  
-  - **[LibreChat Agents](https://www.librechat.ai/docs/features/agents)**:
-    - No-Code Custom Assistants: Build specialized, AI-driven helpers
-    - Agent Marketplace: Discover and deploy community-built agents
-    - Collaborative Sharing: Share agents with specific users and groups
-    - Flexible & Extensible: Use MCP Servers, tools, file search, code execution, and more
-    - Compatible with Custom Endpoints, OpenAI, Azure, Anthropic, AWS Bedrock, Google, Vertex AI, Responses API, and more
-    - [Model Context Protocol (MCP) Support](https://modelcontextprotocol.io/clients#librechat) for Tools
+- 🔦 **智能体和工具集成**:
+  - **[LibreChat 智能体](https://www.librechat.ai/docs/features/agents)**：
+    - 无代码自定义助手：构建专业化的 AI 驱动助手
+    - 智能体市场：发现并部署社区构建的智能体
+    - 协作共享：与特定用户和组共享智能体
+    - 灵活且可扩展：使用 MCP 服务器、工具、文件搜索、代码执行等
+    - 兼容自定义端点、OpenAI、Azure、Anthropic、AWS Bedrock、Google、Vertex AI、Responses API 等
+    - 支持工具的[模型上下文协议 (MCP)](https://modelcontextprotocol.io/clients#librechat)
 
-- 🔍 **Web Search**:  
-  - Search the internet and retrieve relevant information to enhance your AI context
-  - Combines search providers, content scrapers, and result rerankers for optimal results
-  - **Customizable Jina Reranking**: Configure custom Jina API URLs for reranking services
-  - **[Learn More →](https://www.librechat.ai/docs/features/web_search)**
+- 🔍 **网络搜索**:
+  - 搜索互联网并检索相关信息以增强您的 AI 上下文
+  - 结合搜索提供商、内容抓取器和结果重新排序器以获得最佳结果
+  - **可自定义的 Jina 重新排序**：配置自定义 Jina API URL 用于重新排序服务
+  - **[了解更多 →](https://www.librechat.ai/docs/features/web_search)**
 
-- 🪄 **Generative UI with Code Artifacts**:  
-  - [Code Artifacts](https://youtu.be/GfTj7O4gmd0?si=WJbdnemZpJzBrJo3) allow creation of React, HTML, and Mermaid diagrams directly in chat
+- 🪄 **带有代码工件的生成式 UI**:
+  - [工件](https://youtu.be/GfTj7O4gmd0?si=WJbdnemZpJzBrJo3)允许在聊天中直接创建 React、HTML 和 Mermaid 图表
 
-- 🎨 **Image Generation & Editing**
-  - Text-to-image and image-to-image with [GPT-Image-1](https://www.librechat.ai/docs/features/image_gen#1--openai-image-tools-recommended)
-  - Text-to-image with [DALL-E (3/2)](https://www.librechat.ai/docs/features/image_gen#2--dalle-legacy), [Stable Diffusion](https://www.librechat.ai/docs/features/image_gen#3--stable-diffusion-local), [Flux](https://www.librechat.ai/docs/features/image_gen#4--flux), or any [MCP server](https://www.librechat.ai/docs/features/image_gen#5--model-context-protocol-mcp)
-  - Produce stunning visuals from prompts or refine existing images with a single instruction
+- 🎨 **图像生成和编辑**
+  - 文本到图像和图像到图像，使用 [GPT-Image-1](https://www.librechat.ai/docs/features/image_gen#1--openai-image-tools-recommended)
+  - 文本到图像，使用 [DALL-E (3/2)](https://www.librechat.ai/docs/features/image_gen#2--dalle-legacy)、[Stable Diffusion](https://www.librechat.ai/docs/features/image_gen#3--stable-diffusion-local)、[Flux](https://www.librechat.ai/docs/features/image_gen#4--flux) 或任何 [MCP 服务器](https://www.librechat.ai/docs/features/image_gen#5--model-context-protocol-mcp)
+  - 根据提示词生成令人惊叹的视觉效果，或通过单一指令优化现有图像
 
-- 💾 **Presets & Context Management**:  
-  - Create, Save, & Share Custom Presets  
-  - Switch between AI Endpoints and Presets mid-chat
-  - Edit, Resubmit, and Continue Messages with Conversation branching  
-  - Create and share prompts with specific users and groups
-  - [Fork Messages & Conversations](https://www.librechat.ai/docs/features/fork) for Advanced Context control
+- 💾 **预设和上下文管理**:
+  - 创建、保存和共享自定义预设
+  - 在聊天中切换 AI 端点和预设
+  - 编辑、重新提交和继续消息，支持对话分支
+  - 创建并与特定用户和组共享提示词
+  - [派生消息和对话](https://www.librechat.ai/docs/features/fork)以进行高级上下文控制
 
-- 💬 **Multimodal & File Interactions**:  
-  - Upload and analyze images with Claude 3, GPT-4.5, GPT-4o, o1, Llama-Vision, and Gemini 📸  
-  - Chat with Files using Custom Endpoints, OpenAI, Azure, Anthropic, AWS Bedrock, & Google 🗃️
+- 💬 **多模态和文件交互**:
+  - 使用 Claude 3、GPT-4.5、GPT-4o、o1、Llama-Vision 和 Gemini 上传和分析图像 📸
+  - 使用自定义端点、OpenAI、Azure、Anthropic、AWS Bedrock 和 Google 与文件聊天 🗃️
 
-- 🌎 **Multilingual UI**:
-  - English, 中文 (简体), 中文 (繁體), العربية, Deutsch, Español, Français, Italiano
-  - Polski, Português (PT), Português (BR), Русский, 日本語, Svenska, 한국어, Tiếng Việt
-  - Türkçe, Nederlands, עברית, Català, Čeština, Dansk, Eesti, فارسی
-  - Suomi, Magyar, Հայերեն, Bahasa Indonesia, ქართული, Latviešu, ไทย, ئۇيغۇرچە
+- 🌎 **多语言界面**:
+  - English、中文 (简体)、中文 (繁體)、العربية、Deutsch、Español、Français、Italiano
+  - Polski、Português (PT)、Português (BR)、Русский、日本語、Svenska、한국어、Tiếng Việt
+  - Türkçe、Nederlands、עברית、Català、Čeština、Dansk、Eesti、فارسی
+  - Suomi、Magyar、Հայերեն、Bahasa Indonesia、ქართული、Latviešu、ไทย、ئۇيغۇرچە
 
-- 🧠 **Reasoning UI**:  
-  - Dynamic Reasoning UI for Chain-of-Thought/Reasoning AI models like DeepSeek-R1
+- 🧠 **推理界面**:
+  - 为思维链/推理 AI 模型（如 DeepSeek-R1）提供的动态推理界面
 
-- 🎨 **Customizable Interface**:  
-  - Customizable Dropdown & Interface that adapts to both power users and newcomers
+- 🎨 **可自定义界面**:
+  - 可自定义的下拉菜单和界面，适应高级用户和新手
 
-- 🗣️ **Speech & Audio**:  
-  - Chat hands-free with Speech-to-Text and Text-to-Speech  
-  - Automatically send and play Audio  
-  - Supports OpenAI, Azure OpenAI, and Elevenlabs
+- 🗣️ **语音和音频**:
+  - 使用语音转文本和文本转语音免提聊天
+  - 自动发送和播放音频
+  - 支持 OpenAI、Azure OpenAI 和 Elevenlabs
 
-- 📥 **Import & Export Conversations**:  
-  - Import Conversations from LibreChat, ChatGPT, Chatbot UI  
-  - Export conversations as screenshots, markdown, text, json
+- 📥 **导入和导出对话**:
+  - 从 LibreChat、ChatGPT、Chatbot UI 导入对话
+  - 将对话导出为截图、markdown、文本、json
 
-- 🔍 **Search & Discovery**:  
-  - Search all messages/conversations
+- 🔍 **搜索和发现**:
+  - 搜索所有消息/对话
 
-- 👥 **Multi-User & Secure Access**:
-  - Multi-User, Secure Authentication with OAuth2, LDAP, & Email Login Support
-  - Built-in Moderation, and Token spend tools
+- 👥 **多用户和安全访问**:
+  - 多用户、安全认证，支持 OAuth2、LDAP 和电子邮件登录
+  - 内置审核和令牌消费工具
 
-- ⚙️ **Configuration & Deployment**:  
-  - Configure Proxy, Reverse Proxy, Docker, & many Deployment options  
-  - Use completely local or deploy on the cloud
+- ⚙️ **配置和部署**:
+  - 配置代理、反向代理、Docker 和多种部署选项
+  - 完全本地使用或在云端部署
 
-- 📖 **Open-Source & Community**:  
-  - Completely Open-Source & Built in Public  
-  - Community-driven development, support, and feedback
+- 📖 **开源和社区**:
+  - 完全开源并公开构建
+  - 社区驱动的开发、支持和反馈
 
-[For a thorough review of our features, see our docs here](https://docs.librechat.ai/) 📚
+[有关我们功能的详尽审查，请在此查看我们的文档](https://docs.librechat.ai/) 📚
 
-## 🪶 All-In-One AI Conversations with LibreChat
+## 🪶 使用 LibreChat 实现一体化 AI 对话
 
-LibreChat brings together the future of assistant AIs with the revolutionary technology of OpenAI's ChatGPT. Celebrating the original styling, LibreChat gives you the ability to integrate multiple AI models. It also integrates and enhances original client features such as conversation and message search, prompt templates and plugins.
+LibreChat 将助手 AI 的未来与 OpenAI ChatGPT 的革命性技术结合在一起。在秉承原有风格的同时，LibreChat 赋予您集成多种 AI 模型的能力。它还集成并增强了原有的客户端功能，如对话和消息搜索、提示词模板和插件。
 
-With LibreChat, you no longer need to opt for ChatGPT Plus and can instead use free or pay-per-call APIs. We welcome contributions, cloning, and forking to enhance the capabilities of this advanced chatbot platform.
+有了 LibreChat，您不再需要选择 ChatGPT Plus，而是可以使用免费或按次付费的 API。我们欢迎贡献、克隆和分支，以增强这个高级聊天机器人平台的能力。
 
-[![Watch the video](https://raw.githubusercontent.com/LibreChat-AI/librechat.ai/main/public/images/changelog/v0.7.6.gif)](https://www.youtube.com/watch?v=ilfwGQtJNlI)
+[![观看视频](https://raw.githubusercontent.com/LibreChat-AI/librechat.ai/main/public/images/changelog/v0.7.6.gif)](https://www.youtube.com/watch?v=ilfwGQtJNlI)
 
-Click on the thumbnail to open the video☝️
-
----
-
-## 🌐 Resources
-
-**GitHub Repo:**
-  - **RAG API:** [github.com/danny-avila/rag_api](https://github.com/danny-avila/rag_api)
-  - **Website:** [github.com/LibreChat-AI/librechat.ai](https://github.com/LibreChat-AI/librechat.ai)
-
-**Other:**
-  - **Website:** [librechat.ai](https://librechat.ai)
-  - **Documentation:** [librechat.ai/docs](https://librechat.ai/docs)
-  - **Blog:** [librechat.ai/blog](https://librechat.ai/blog)
+点击缩略图打开视频☝️
 
 ---
 
-## 📝 Changelog
+## 🌐 资源
 
-Keep up with the latest updates by visiting the releases page and notes:
-- [Releases](https://github.com/danny-avila/LibreChat/releases)
-- [Changelog](https://www.librechat.ai/changelog) 
+**GitHub 仓库：**
+  - **RAG API：** [github.com/danny-avila/rag_api](https://github.com/danny-avila/rag_api)
+  - **网站：** [github.com/LibreChat-AI/librechat.ai](https://github.com/LibreChat-AI/librechat.ai)
 
-**⚠️ Please consult the [changelog](https://www.librechat.ai/changelog) for breaking changes before updating.**
+**其他：**
+  - **网站：** [librechat.ai](https://librechat.ai)
+  - **文档：** [librechat.ai/docs](https://librechat.ai/docs)
+  - **博客：** [librechat.ai/blog](https://librechat.ai/blog)
 
 ---
 
-## ⭐ Star History
+## 📝 更新日志
+
+通过访问发布页面和说明了解最新更新：
+- [发布版本](https://github.com/danny-avila/LibreChat/releases)
+- [更新日志](https://www.librechat.ai/changelog)
+
+**⚠️ 更新前请查阅[更新日志](https://www.librechat.ai/changelog)以了解重大更改。**
+
+---
+
+## ⭐ Star 历史
 
 <p align="center">
   <a href="https://star-history.com/#danny-avila/LibreChat&Date">
@@ -188,17 +188,17 @@ Keep up with the latest updates by visiting the releases page and notes:
 
 ---
 
-## ✨ Contributions
+## ✨ 贡献
 
-Contributions, suggestions, bug reports and fixes are welcome!
+欢迎贡献、建议、错误报告和修复！
 
-For new features, components, or extensions, please open an issue and discuss before sending a PR.
+对于新功能、组件或扩展，请先提交问题并讨论，然后再发送 PR。
 
-If you'd like to help translate LibreChat into your language, we'd love your contribution! Improving our translations not only makes LibreChat more accessible to users around the world but also enhances the overall user experience. Please check out our [Translation Guide](https://www.librechat.ai/docs/translation).
+如果您想帮助将 LibreChat 翻译成您的语言，我们非常欢迎您的贡献！改进我们的翻译不仅会让 LibreChat 更容易被全球用户使用，还能增强整体用户体验。请查看我们的[翻译指南](https://www.librechat.ai/docs/translation)。
 
 ---
 
-## 💖 This project exists in its current state thanks to all the people who contribute
+## 💖 该项目之所以能够达到当前状态，感谢所有做出贡献的人们
 
 <a href="https://github.com/danny-avila/LibreChat/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danny-avila/LibreChat" />
@@ -206,9 +206,9 @@ If you'd like to help translate LibreChat into your language, we'd love your con
 
 ---
 
-## 🎉 Special Thanks
+## 🎉 特别感谢
 
-We thank [Locize](https://locize.com) for their translation management tools that support multiple languages in LibreChat.
+我们感谢 [Locize](https://locize.com) 为我们提供的翻译管理工具，支持 LibreChat 的多语言功能。
 
 <p align="center">
   <a href="https://locize.com" target="_blank" rel="noopener noreferrer">
